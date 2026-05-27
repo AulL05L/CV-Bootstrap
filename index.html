@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV personal Aulia Destiana — Mahasiswi Sistem Informasi Universitas Budi Luhur, web developer &amp; atlet Pencak Silat.">
+  <title>Aulia Destiana — CV &amp; Portfolio</title>
+
+  <!-- 1. Bootstrap CSS (via npm → assets/vendor/) -->
+  <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
+
+  <!-- 2. Font Awesome 6.5 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- 3. Custom styles (includes @import for local Syne + Outfit fonts) -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ================================================================
+     NAVBAR START
+     ================================================================ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Navigasi utama">
+  <div class="container">
+
+    <a class="navbar-brand" href="#hero">auliadestiana.</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navMenu"
+      aria-controls="navMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-1">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#organization">Organization</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<!-- NAVBAR END -->
+
+
+<!-- ================================================================
+     HERO START
+     ================================================================ -->
+<section id="hero" class="hero-section">
+  <div class="container">
+    <div class="reveal">
+      <div class="row align-items-center min-vh-100 py-5">
+
+        <!-- ── Text column ── -->
+        <div class="col-lg-6 order-2 order-lg-1 mt-4 mt-lg-0">
+                  <p class="hero-greeting">Halo, saya</p>
+                  <h1 class="hero-name">Aulia <span>Destiana</span></h1>
+                  <p class="hero-subtitle">Mahasiswa Sistem Informasi di Universitas Budi Luhur</p>
+                  <p class="hero-bio">
+                    Memiliki ketertarikan besar dalam pengembangan web dan desain digital. Saat ini sedang mendalami
+                    teknologi front-end sembari aktif sebagai atlet Pencak Silat.
+                    Selalu bersemangat untuk belajar, berkarya, dan berkembang di industri teknologi.
+                  </p>
+
+          <!-- Social icons -->
+          <div class="hero-socials d-flex flex-wrap gap-3 mt-4">
+            <a href="https://instagram.com/auliadestiana__" target="_blank" rel="noopener" class="social-icon" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/auliadestiana_" target="_blank" rel="noopener" class="social-icon" title="Twitter / X">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://linkedin.com/in/aulia-destiana-putri" target="_blank" rel="noopener" class="social-icon" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="btn-terra mt-4 d-inline-block">
+            Explore More <i class="fas fa-arrow-down ms-2"></i>
+          </a>
+        </div>
+
+        <!-- ── Photo column ── -->
+        <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center">
+          <div class="hero-photo-wrapper">
+            <div class="hero-photo-ring">
+              <img
+                src="assets/img/hero.jpeg"
+                alt="Foto Aulia Destiana"
+                class="hero-photo"
+                onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=Aulia+Destiana&background=803407&color=e0d1bf&size=240'"
+              >
+            </div>
+            <!-- Status badge -->
+            <div class="status-badge" aria-label="Tersedia untuk kesempatan baru">
+              <span class="status-dot"></span>
+              Open to opportunity
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- HERO END -->
+
+
+<!-- ================================================================
+     ABOUT START
+     ================================================================ -->
+<section id="about" class="section-padding">
+  <div class="container">
+    <div class="reveal">
+
+      <div class="section-header text-center mb-5">
+        <h2>About <span>Me</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row g-4 mb-4">
+
+        <!-- Card 1 — Coding -->
+        <div class="col-md-6">
+          <div class="card-custom h-100 p-4">
+            <div class="card-icon mb-3">
+              <i class="fas fa-code"></i>
+            </div>
+            <h5 class="card-title-custom">Coding &amp; Web Dev</h5>
+            <p class="card-text-custom">
+              Saya memiliki ketertarikan besar dalam dunia pemrograman, khususnya
+              <em>web development</em>. Saya terus belajar dan mengembangkan kemampuan
+              dalam HTML, CSS, JavaScript, dan PHP untuk membangun website yang
+              fungsional dan menarik. Setiap project adalah kesempatan baru untuk
+              tumbuh dan berkreasi.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 — Pencak Silat -->
+        <div class="col-md-6">
+          <div class="card-custom h-100 p-4">
+            <div class="card-icon mb-3">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h5 class="card-title-custom">Pencak Silat</h5>
+            <p class="card-text-custom">
+              Di luar dunia digital, saya adalah atlet Pencak Silat aktif yang
+              telah berkompetisi sejak kecil. Olahraga bela diri ini
+              mengajarkan saya tentang kedisiplinan, ketekunan, dan semangat
+              pantang menyerah — nilai-nilai yang juga saya terapkan dalam belajar
+              dan kesharian setiap hari.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Motivational quote bar -->
+      <div class="quote-bar p-4">
+        <p class="quote-text">
+          <i class="fas fa-quote-left me-2 text-terra"></i>
+          Tumbuh dalam lingkungan atlet binaan menempa saya menjadi pribadi yang disiplin dan tangguh. Namun bagi saya, pengembangan diri tidak memiliki batas. Saya selalu tertantang untuk mengeksplorasi hal-hal baru, menyelaraskan rasionalitas logika, kreativitas seni, serta ketenangan spiritual dalam setiap proses pertumbuhan saya.
+          <i class="fas fa-quote-right ms-2 text-terra"></i>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ABOUT END -->
+
+
+<!-- ================================================================
+     SKILLS START
+     ================================================================ -->
+<section id="skills" class="section-padding section-alt">
+  <div class="container">
+    <div class="reveal">
+
+      <div class="section-header text-center mb-5">
+        <h2>My <span>Skills</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- HTML -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="skill-name mb-0"><i class="fab fa-html5 me-2 text-terra"></i>HTML</h5>
+              <span class="skill-percent">55%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="55"></div>
+            </div>
+            <p class="skill-desc mt-3 mb-0">Struktur markup HTML5 semantik untuk web yang <em>accessible</em> dan SEO-friendly.</p>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="skill-name mb-0"><i class="fab fa-css3-alt me-2 text-terra"></i>CSS</h5>
+              <span class="skill-percent">50%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="50"></div>
+            </div>
+            <p class="skill-desc mt-3 mb-0">Styling modern dengan Flexbox, Grid, animasi, dan responsive design.</p>
+          </div>
+        </div>
+
+        <!-- PHP -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="skill-name mb-0"><i class="fab fa-php me-2 text-terra"></i>PHP</h5>
+              <span class="skill-percent">40%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="40"></div>
+            </div>
+            <p class="skill-desc mt-3 mb-0">Back-end scripting untuk aplikasi web dinamis dan pengelolaan data.</p>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="skill-name mb-0"><i class="fab fa-js me-2 text-terra"></i>JavaScript</h5>
+              <span class="skill-percent">45%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="45"></div>
+            </div>
+            <p class="skill-desc mt-3 mb-0">Interaktivitas front-end, DOM manipulation, dan logika aplikasi web.</p>
+          </div>
+        </div>
+
+        <!-- Tailwind CSS -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="skill-name mb-0"><i class="fas fa-wind me-2 text-terra"></i>Tailwind CSS</h5>
+              <span class="skill-percent">50%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="50"></div>
+            </div>
+            <p class="skill-desc mt-3 mb-0">Utility-first CSS framework untuk rapid UI development yang konsisten.</p>
+          </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="skill-name mb-0"><i class="fab fa-bootstrap me-2 text-terra"></i>Bootstrap</h5>
+              <span class="skill-percent">45%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="45"></div>
+            </div>
+            <p class="skill-desc mt-3 mb-0">Component-based framework untuk UI yang responsif dan cepat dikembangkan.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SKILLS END -->
+
+
+<!-- ================================================================
+     EDUCATION START
+     ================================================================ -->
+<section id="education" class="section-padding">
+  <div class="container">
+    <div class="reveal">
+
+      <div class="section-header text-center mb-5">
+        <h2>My <span>Education</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="timeline">
+
+            <!-- S1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+              <div class="timeline-content card-custom p-4">
+                <span class="timeline-year">2023 – Sekarang</span>
+                <h5 class="timeline-title">S1 Sistem Informasi</h5>
+                <p class="timeline-place">Universitas Budi Luhur</p>
+                <p class="timeline-desc">Sedang menempuh studi Semester 6, dengan fokus pada pengembangan sistem informasi, teknologi web, dan analisis data bisnis khusus di bidang olahraga.</p>
+              </div>
+            </div>
+
+            <!-- SMA -->
+            <div class="timeline-item">
+              <div class="timeline-dot"><i class="fas fa-school"></i></div>
+              <div class="timeline-content card-custom p-4">
+                <span class="timeline-year">2020 – 2023</span>
+                <h5 class="timeline-title">Sekolah Menengah Atas</h5>
+                <p class="timeline-place">SMAN Ragunan SKO Jakarta</p>
+                <p class="timeline-desc">Menyelesaikan pendidikan di Sekolah Khusus Olahraga (SKO) Ragunan Jakarta, sembari aktif berlatih dan berkompetisi sebagai atlet Pencak Silat.</p>
+              </div>
+            </div>
+
+            <!-- SMP -->
+            <div class="timeline-item">
+              <div class="timeline-dot"><i class="fas fa-book"></i></div>
+              <div class="timeline-content card-custom p-4">
+                <span class="timeline-year">2017 – 2020</span>
+                <h5 class="timeline-title">Sekolah Menengah Pertama</h5>
+                <p class="timeline-place">SMP Negeri 13 Kota Serang</p>
+                <p class="timeline-desc">Dibesarkan di lingkungan Pencak Silat oleh ibu saya sejak kecil, saya tumbuh dengan disiplin tinggi hingga kini dipercaya menjadi atlet binaan PPLP Banten. Alasan bersekolah di sini adalah karena lokasinya yang dekat dengan asrama, memudahkan saya membagi waktu antara sekolah dan latihan.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- EDUCATION END -->
+
+
+<!-- ================================================================
+     EXPERIENCE START
+     ================================================================ -->
+<section id="experience" class="section-padding section-alt">
+  <div class="container">
+    <div class="reveal">
+
+      <div class="section-header text-center mb-5">
+        <h2>My <span>Experience</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Web Developer -->
+        <div class="col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="exp-icon mb-3"><i class="fas fa-laptop-code"></i></div>
+            <div class="exp-badge mb-3">2023 – Sekarang</div>
+            <h5 class="exp-title">Web Developer</h5>
+            <p class="exp-sub">Academic / Personal Projects</p>
+            <p class="exp-desc">
+              Membangun dan mengembangkan website personal dan proyek akademik menggunakan
+              HTML, CSS, JavaScript, Bootstrap, dan Tailwind CSS. Berfokus pada
+              <em>responsive design</em> dan user experience yang baik.
+            </p>
+          </div>
+        </div>
+
+        <!-- Pencak Silat Athlete -->
+        <div class="col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="exp-icon mb-3"><i class="fas fa-medal"></i></div>
+            <div class="exp-badge mb-3">2018 – Sekarang</div>
+            <h5 class="exp-title">Pencak Silat Athlete</h5>
+            <p class="exp-sub">Active Competitor</p>
+            <p class="exp-desc">
+              Atlet Pencak Silat aktif yang telah mengikuti berbagai kompetisi daerah
+              dan nasional. Mengembangkan disiplin, ketahanan mental, dan kemampuan
+              kerja tim melalui latihan dan kompetisi rutin.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- EXPERIENCE END -->
+
+
+<!-- ================================================================
+     ORGANIZATION START
+     ================================================================ -->
+<section id="organization" class="section-padding">
+  <div class="container">
+    <div class="reveal">
+
+      <div class="section-header text-center mb-5">
+        <h2>My <span>Organization</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- UKM Pencak Silat -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="org-icon mb-3"><i class="fas fa-users"></i></div>
+            <div class="org-badge mb-3">2026 – Sekarang</div>
+            <h5 class="org-title">Ketua UKM Pencak Silat</h5>
+            <p class="org-sub">Universitas Budi Luhur</p>
+            <p class="org-desc">
+              Memimpin Unit Kegiatan Mahasiswa Pencak Silat Universitas Budi Luhur,
+              mengkoordinasikan program latihan, dan membimbing anggota dalam
+              mencapai prestasi terbaik di tingkat regional maupun nasional.
+            </p>
+          </div>
+        </div>
+
+        <!-- Volunteer GLC -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100">
+            <div class="org-icon mb-3"><i class="fas fa-hand-holding-heart"></i></div>
+            <div class="org-badge mb-3">Mei 2026</div>
+            <h5 class="org-title">Volunteer GLC</h5>
+            <p class="org-sub">Wisuda Mei 2026 — Universitas Budi Luhur</p>
+            <p class="org-desc">
+              Berperan sebagai volunteer paduan suara dalam acara <em>Graduation</em> Wisuda Mei 2026, membantu kelancaran pelaksanaan acara
+              dan memberikan pelayanan terbaik kepada peserta wisuda.
+            </p>
+          </div>
+        </div>
+
+        <!-- Placeholder -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom p-4 h-100 card-placeholder">
+            <div class="org-icon mb-3"><i class="fas fa-plus"></i></div>
+            <h5 class="org-title text-muted-custom">Tambahkan Organisasi</h5>
+            <p class="org-desc text-muted-custom">
+              Slot ini tersedia untuk organisasi atau kepanitiaan berikutnya.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ORGANIZATION END -->
+
+
+<!-- ================================================================
+     PROJECTS START
+     ================================================================ -->
+<section id="projects" class="section-padding section-alt">
+  <div class="container">
+    <div class="reveal">
+
+      <div class="section-header text-center mb-5">
+        <h2>My <span>Projects</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Project 1 — Tailwind Portfolio -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom project-card h-100">
+            <div class="project-img-wrapper">
+              <img
+                src="assets/img/project1.jpg"
+                alt="Web Portfolio Personal"
+                class="project-img"
+                onerror="this.onerror=null;this.parentElement.innerHTML='<div class=&quot;project-img-fallback&quot;><i class=&quot;fas fa-globe fa-3x&quot;></i></div>'"
+              >
+            </div>
+            <div class="p-4">
+              <h5 class="project-title">Web Portfolio Personal</h5>
+              <p class="project-desc">
+                Website portofolio pribadi yang dibangun menggunakan Tailwind CSS dibuat pada saat di semester 3 untuk belajar dan eksplorasi teknologi web - BELUM DI UPDATE.
+              </p>
+              <div class="d-flex flex-wrap gap-2 mt-3">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 — CV Bootstrap (this page) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom project-card h-100">
+            <div class="project-img-wrapper">
+              <img
+                src="assets/img/project2.jpg"
+                alt="CV Web Bootstrap"
+                class="project-img"
+                onerror="this.onerror=null;this.parentElement.innerHTML='<div class=&quot;project-img-fallback&quot;><i class=&quot;fas fa-id-card fa-3x&quot;></i></div>'"
+              >
+            </div>
+            <div class="p-4">
+              <h5 class="project-title">CV Web Bootstrap</h5>
+              <p class="project-desc">
+                Website CV personal yang sedang Anda lihat sekarang, dibangun dengan
+                Bootstrap 5 (via npm), local fonts, dan desain dark mode elegan.
+              </p>
+              <div class="d-flex flex-wrap gap-2 mt-3">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">Bootstrap 5</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 — Starjasmani -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom project-card h-100">
+            <div class="project-img-wrapper">
+              <img
+                src="assets/img/project3.jpg"
+                alt="Starjasmani"
+                class="project-img"
+                onerror="this.onerror=null;this.parentElement.innerHTML='<div class=&quot;project-img-fallback&quot;><i class=&quot;fas fa-dumbbell fa-3x&quot;></i></div>'"
+              >
+            </div>
+            <div class="p-4">
+              <h5 class="project-title">Starjasmani</h5>
+              <p class="project-desc">
+                platform digital untuk bimbingan seleksi TNI/Polri/Kedinasan yang dilengkapi sistem laporan data untuk memantau performa atlet oleh admin, melacak riwayat cedera, serta menampilkan grafik perkembangan fisik secara langsung kepada member.
+              </p>
+              <div class="d-flex flex-wrap gap-2 mt-3 mb-3">
+                <span class="tech-tag">Web App</span>
+                <span class="tech-tag">Health &amp; Fitness</span>
+              </div>
+              <a href="https://starjasmani.id" target="_blank" rel="noopener" class="project-link">
+                <i class="fas fa-external-link-alt me-1"></i>Visit Site
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PROJECTS END -->
+
+
+<!-- ================================================================
+     CONTACT START
+     ================================================================ -->
+<section id="contact" class="section-padding">
+  <div class="container">
+    <div class="reveal">
+
+      <div class="section-header text-center mb-2">
+        <h2>Get In <span>Touch</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle mt-3">Jangan ragu untuk menghubungi saya melalui platform berikut.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center mt-2">
+
+        <!-- Email -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <a href="mailto:auliades1465@gmail.com" class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-info">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">auliades1465@gmail.com</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <a href="https://linkedin.com/in/aulia-destiana-putri" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div class="contact-info">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">Aulia Destiana Putri</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Instagram -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <a href="https://instagram.com/auliadestiana__" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+            <div class="contact-info">
+              <span class="contact-label">Instagram</span>
+              <span class="contact-value">@auliadestiana__</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Twitter / X -->
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <a href="https://twitter.com/auliadestiana_" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-x-twitter"></i></div>
+            <div class="contact-info">
+              <span class="contact-label">Twitter / X</span>
+              <span class="contact-value">@auliadestiana_</span>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CONTACT END -->
+
+
+<!-- ================================================================
+     FOOTER START
+     ================================================================ -->
+<footer class="footer">
+  <div class="container text-center">
+    <p class="footer-text mb-0">
+      &copy; 2024 Aulia Destiana.
+      Built with <i class="fab fa-bootstrap text-terra"></i> Bootstrap 5.
+    </p>
+  </div>
+</footer>
+<!-- FOOTER END -->
+
+
+<!-- Bootstrap Bundle JS (via npm → assets/vendor/) -->
+<script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

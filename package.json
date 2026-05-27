@@ -1,0 +1,17 @@
+{
+  "name": "cv-bootstrap",
+  "version": "1.0.0",
+  "description": "Personal CV website — Aulia Destiana. Bootstrap 5 via npm, local fonts via @fontsource.",
+  "scripts": {
+    "build": "node build.js",
+    "start": "npx live-server --port=5500 --open=index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "@fontsource/syne": "^5.1.1",
+    "@fontsource/outfit": "^5.1.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
